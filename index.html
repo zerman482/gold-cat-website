@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gold Cat ($GCAT)</title>
+<meta name="description" content="Gold Cat ($GCAT), a community-driven meme coin on Robinhood Chain.">
+<style>
+:root{color-scheme:dark;--bg:#0b100b;--panel:#151e15;--gold:#f3c64e;--cream:#fff6d8;--muted:#c7cbbf;--line:#35402d}
+*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,sans-serif;color:var(--cream);background:radial-gradient(ellipse at top,#29351d,var(--bg) 58%)}
+.wrap{width:min(100% - 32px,950px);margin:auto}header{padding:24px 0;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.brand{font-weight:900;letter-spacing:.08em;color:var(--gold)}
+main{padding:28px 0 60px}.hero{text-align:center;padding:25px 0 48px}.logo{font-size:100px;line-height:1.4}h1{font-size:clamp(2.8rem,9vw,5.8rem);line-height:1;margin:10px 0 18px;letter-spacing:-.05em}h1 span{color:var(--gold)}.tagline{font-size:1.35rem;font-weight:800}.sub{max-width:640px;margin:0 auto 25px;color:var(--muted)}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;min-height:48px;border-radius:13px;text-decoration:none;font-weight:800;background:var(--gold);color:#1c1b0c;border:1px solid var(--gold);cursor:pointer}.btn.secondary{background:transparent;color:var(--cream);border-color:var(--line)}
+section{margin:20px 0;padding:clamp(22px,5vw,34px);border:1px solid var(--line);border-radius:22px;background:rgba(21,30,21,.9)}h2{margin:0 0 12px;font-size:1.55rem}.muted{color:var(--muted)}.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:20px}.fact{padding:15px;border:1px solid var(--line);border-radius:14px}.fact small{display:block;color:var(--muted)}.contract{font: .9rem/1.6 ui-monospace,monospace;color:var(--gold);overflow-wrap:anywhere}.notice{border-left:4px solid var(--gold);padding:12px 15px;background:#201f14;border-radius:8px}footer{text-align:center;color:var(--muted);padding:25px 0 40px;font-size:.9rem}
+</style></head>
+<body><div class="wrap">
+<header><div class="brand">🐱 GOLD CAT | $GCAT</div><div class="muted">Community • Robinhood Chain</div></header>
+<main>
+<div class="hero"><div class="logo" aria-label="Gold Cat mascot">🐱</div><h1>GOLD <span>CAT</span></h1><p class="tagline">Buy the Meow. Chase the Gold.</p>
+<p class="sub">A community-driven meme coin built around the Golden Cat, on Robinhood Chain. Join the community, follow updates, and verify the contract before interacting.</p>
+<div class="actions"><a class="btn" href="https://app.longxyz.com/" target="_blank" rel="noopener noreferrer">Explore on LONG ↗</a><a class="btn secondary" href="https://t.me/GoldCat_GCAT" target="_blank" rel="noopener noreferrer">Join Telegram ↗</a><a class="btn secondary" href="https://x.com/GoldCatGCAT" target="_blank" rel="noopener noreferrer">Follow on X ↗</a></div></div>
+<section><h2>About Gold Cat</h2><p class="muted">Gold Cat is a community-driven meme coin with a Golden Cat mascot. This page is a hub for official project links and basic token information.</p>
+<div class="facts"><div class="fact"><small>Token name</small><strong>Gold Cat</strong></div><div class="fact"><small>Symbol</small><strong>$GCAT</strong></div><div class="fact"><small>Network</small><strong>Robinhood Chain</strong></div><div class="fact"><small>Total supply</small><strong>1,000,000,000 GCAT</strong></div></div></section>
+<section><h2>Official contract</h2><p class="muted">Compare the full address before trading. Token names and logos can be copied by impersonators.</p><p class="contract" id="contract">0x0d39594c092f340a2efba5d225f2f00823eb1e18</p><button class="btn" onclick="copyContract()">Copy contract address</button><p class="muted" id="status" aria-live="polite"></p></section>
+<section><h2>Official community links</h2><div class="actions" style="justify-content:flex-start"><a class="btn secondary" href="https://x.com/GoldCatGCAT" target="_blank" rel="noopener noreferrer">X: @GoldCatGCAT</a><a class="btn secondary" href="https://t.me/GoldCat_GCAT" target="_blank" rel="noopener noreferrer">Telegram: @GoldCat_GCAT</a></div></section>
+<section><h2>Important notice</h2><div class="notice">GCAT is a meme token and may be highly volatile. This page is informational only—not financial advice, an offer, or a promise of profit. You could lose some or all of the amount you spend. Verify links and the contract independently; never share your seed phrase or private keys.</div></section>
+</main><footer>🐱 Gold Cat ($GCAT) • Buy the Meow. Chase the Gold.<br>Community-made informational page.</footer></div>
+<script>async function copyContract(){const t=document.getElementById('contract').textContent.trim(),s=document.getElementById('status');try{await navigator.clipboard.writeText(t);s.textContent='Contract address copied.'}catch(e){s.textContent='Please select and copy the address above.'}}</script>
+</body></html>
